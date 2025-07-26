@@ -1,7 +1,7 @@
-# 📘 Dicionário de Dados – Modelo 1 (Relacional Clássico)
+ Modelo 1 (Relacional Clássico)
 
 
-## 🔹 Tabela: `profissional`
+Tabela: `profissional`
 
 | Campo         | Tipo         | Descrição                             | Restrições                         | Observações                       |
 |---------------|--------------|---------------------------------------|------------------------------------|----------------------------------|
@@ -13,8 +13,7 @@
 | data_cadastro | TIMESTAMP    | Data de cadastro no sistema           | DEFAULT CURRENT_TIMESTAMP          | —                                |
 
 ---
-
-## 🔹 Tabela: `plano`
+ Tabela: `plano`
 
 | Campo      | Tipo           | Descrição                              | Restrições                        | Observações                              |
 |------------|----------------|----------------------------------------|-----------------------------------|-------------------------------------------|
@@ -28,7 +27,7 @@
 
 ---
 
-## 🔹 Tabela: `profissional_plano` (associativa N:N)
+ Tabela: `profissional_plano` (associativa N:N)
 
 | Campo           | Tipo      | Descrição                                      | Restrições                                      | Observações                     |
 |------------------|-----------|------------------------------------------------|-------------------------------------------------|--------------------------------|
@@ -37,8 +36,7 @@
 | data_aceite      | TIMESTAMP | Data em que o plano foi aceito pelo profissional | DEFAULT CURRENT_TIMESTAMP                        | Informativo, pode ser usado para histórico |
 
 ---
-
-## 🔹 Tipo Enumerado: `tipo_plano`
+ Tipo Enumerado: `tipo_plano`
 
 | Valor           | Descrição                         |
 |------------------|----------------------------------|

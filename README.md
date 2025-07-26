@@ -1,6 +1,6 @@
 # Desafio Técnico – Modelagem de Dados (Plano de Saúde) - Lacrei Saúde
 
-## ✨ Sobre o Projeto
+## Sobre o Projeto
 
 Este repositório apresenta a proposta de modelagem de dados para representar os **planos de saúde aceitos por profissionais cadastrados** na plataforma Lacrei Saúde, levando em consideração:
 
@@ -12,7 +12,7 @@ Este repositório apresenta a proposta de modelagem de dados para representar os
 
 ---
 
-## 🧠 Justificativa Técnica das Decisões
+## Justificativa Técnica das Decisões
 
 A modelagem foi feita pensando em escalabilidade e facilidade de manutenção. Por isso, foram consideradas:
 
@@ -22,9 +22,9 @@ A modelagem foi feita pensando em escalabilidade e facilidade de manutenção. P
 
 ---
 
-## 🔁 Explicação das Duas Abordagens
+## Explicação das Duas Abordagens
 
-### ✅ Proposta 1 – Modelo Relacional Clássico
+###  Proposta 1 – Modelo Relacional Clássico
 
 **Descrição:**
 - Utiliza tabelas normalizadas para representar os profissionais, planos e relacionamentos.
@@ -45,7 +45,7 @@ A modelagem foi feita pensando em escalabilidade e facilidade de manutenção. P
 
 ---
 
-### ✅ Proposta 2 – Modelo com Enum, JSONB e Expansões
+### Proposta 2 – Modelo com Enum, JSONB e Expansões
 
 **Descrição:**
 - Uso de `enum` para o tipo de atendimento (online/presencial)

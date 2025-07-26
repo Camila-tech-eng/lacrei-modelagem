@@ -1,10 +1,6 @@
-# 📘 Dicionário de Dados – Proposta 2 (Modelo Híbrido com JSONB)
+#  Dicionário de Dados – Proposta 2 (Modelo Híbrido com JSONB)
 
-> Este modelo combina tabelas normalizadas com campo `jsonb`, trazendo flexibilidade e agilidade na leitura de dados menos estruturados.
-
----
-
-## 📌 Tabela: `especialidade`
+##  Tabela: `especialidade`
 
 | Campo        | Tipo         | Restrições                    | Descrição                                 |
 |--------------|--------------|-------------------------------|--------------------------------------------|
@@ -13,7 +9,7 @@
 
 ---
 
-## 📌 Enum: `meio_atendimento`
+##  Enum: `meio_atendimento`
 
 | Valor       | Descrição                              |
 |-------------|----------------------------------------|
@@ -23,7 +19,7 @@
 
 ---
 
-## 📌 Enum: `tipo_plano`
+##  Enum: `tipo_plano`
 
 | Valor         | Descrição                              |
 |---------------|----------------------------------------|
@@ -33,7 +29,7 @@
 
 ---
 
-## 📌 Tabela: `plano` (catálogo opcional)
+## Tabela: `plano` (catálogo opcional)
 
 | Campo        | Tipo           | Restrições               | Descrição                                      |
 |--------------|----------------|--------------------------|------------------------------------------------|
@@ -45,7 +41,7 @@
 
 ---
 
-## 📌 Tabela: `profissional`
+##  Tabela: `profissional`
 
 | Campo             | Tipo              | Restrições                          | Descrição                                               |
 |-------------------|-------------------|-------------------------------------|----------------------------------------------------------|

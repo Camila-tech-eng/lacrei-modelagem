@@ -83,6 +83,5 @@ A modelagem foi feita pensando em escalabilidade e facilidade de manutenção. P
 
 ---
 
-## 📁 Estrutura do Repositório
 
 
